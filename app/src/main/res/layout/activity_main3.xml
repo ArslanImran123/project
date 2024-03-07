@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".models.Main3Activity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BURGER"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFC107"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/food"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kentucky Burger is back with a crispy zinger fillet. topped with beef pepperoni, drizzled in our rich. signature sauce cheese stacked in delicious buns!"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFC107"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/food"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kentucky Burger is back with a crispy zinger fillet. topped with beef pepperoni, drizzled in our rich. signature sauce cheese stacked in delicious buns!"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFC107"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
